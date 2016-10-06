@@ -10,7 +10,7 @@ def IsPrime(x):
             return False
     return True
 
-def FinePrimeInRange(a,b):
+def FindPrimeInRange(a,b):
 	return [x for x in range(a,b) if IsPrime(x)]
 
 def IsPandigital(x):
@@ -68,6 +68,6 @@ def FindPentagonal(n):
 def FindHexagonal(n):
     lt = []
     for x in range(1,n+1):
-        lt.append(x*(2*x - 1))n
+        lt.append( x*(2*x - 1) )
     return lt
 

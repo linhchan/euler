@@ -20,7 +20,7 @@ def IsCircularPrime(num):
 		return True
 
 def main():
-	num_range = s.FinePrimeInRange(1, 999999)
+	num_range = s.FindPrimeInRange(1, 999999)
 	cleaned_list = [ x for x in num_range if IsCircularPrime(x) ]
 	print len(cleaned_list)
 
